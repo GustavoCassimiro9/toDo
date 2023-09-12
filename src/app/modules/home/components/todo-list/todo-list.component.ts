@@ -12,10 +12,6 @@ export class TodoListComponent implements OnInit {
 
 
   public taskList: Array<TaskList> = [
-    { task: "Testando task", checked: true },
-    { task: "Testando task", checked: false },
-    { task: "Testando task", checked: false }
-
   ];
 
   constructor() {
