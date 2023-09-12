@@ -24,7 +24,7 @@ export class TodoListComponent implements OnInit {
   ngOnInit(): void {
 
   }
-  
+
   public deleteItemTaskList(event: number) {
     this.taskList.splice(event, 1);
   }
@@ -38,7 +38,11 @@ export class TodoListComponent implements OnInit {
 
   }
 
-  public addTask(){
+  public setEmitTaskList(event: string) {
+    this.taskList.push({ task: event, checked: false })
+  }
+
+  public addTask() {
 
   }
 }

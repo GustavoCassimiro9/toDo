@@ -15,7 +15,6 @@ export class TodoInputAddItensComponent {
   }
 
   public submitItemTaskList(){
-    console.log(this.addItemTaskList);
     this.emmitItemTaskList.emit(this.addItemTaskList);
     this.addItemTaskList = ""
   }
